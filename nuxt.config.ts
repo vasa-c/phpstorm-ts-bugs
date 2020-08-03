@@ -1,3 +1,4 @@
+// See https://youtrack.jetbrains.com/issue/WI-54621
 // This bug is reproduced when vue.js plugin (bundled 202.6397.115) is enabled
 // Type of config.components is infereded as vue.ComponentOptions (expected "any")
 
