@@ -25,7 +25,7 @@ export const getters = {
     },
 
     getUndefinedField(state: IStateTest): string {
-        return state.x; // ok, byt expected error (state doesn't contain field "x")
+        return state.x; // ok, but expected error (state doesn't contain field "x")
     },
 
     /* Use other argument name. Bug is disappered. */
