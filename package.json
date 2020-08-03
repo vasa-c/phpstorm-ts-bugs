@@ -1,0 +1,23 @@
+{
+    "name": "phpstorm-ts-bugs",
+    "private": true,
+    "scripts": {
+        "dev": "nuxt-ts",
+        "build": "nuxt-ts build",
+        "start": "nuxt-ts start",
+        "export": "nuxt-ts export",
+        "serve": "nuxt-ts serve",
+        "lint": "eslint --ext .js,.vue,.ts --ignore-path .gitignore .",
+        "test": "jest"
+    },
+    "dependencies": {
+        "@nuxt/typescript-runtime": "^0.4.10",
+        "axios": "^0.19.2",
+        "nuxt": "^2.13.0"
+    },
+    "devDependencies": {
+        "@nuxt/types": "^2.13.3",
+        "@nuxt/typescript-build": "^1.0.3",
+        "babel-core": "7.0.0-bridge.0"
+    }
+}
